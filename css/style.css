@@ -1,0 +1,61 @@
+/* Cazador de Bestias: El Silencio de Cristal */
+/* Estilos generales con tema de cristal oscuro, alta calidad visual */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  background-color: #0a0a1a;
+  color: #e0d0ff;
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+/* Fuente decorativa para títulos */
+h1, h2, h3 {
+  font-family: 'Orbitron', 'Cinzel Decorative', sans-serif;
+  letter-spacing: 0.05em;
+}
+
+/* Animaciones */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Scrollbar personalizada */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0a1a;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #9b59b6, #6c3483);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #b8a0d0, #8e44ad);
+}
+
+/* Selección de texto */
+::selection {
+  background: rgba(155, 89, 182, 0.4);
+  color: #fff;
+}
+
+/* Estilo para los enlaces de navegación */
+.nav-link {
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* Estilo para el logo */
+.logo-container {
+  animation: fadeIn 1.5s ease;
+}
